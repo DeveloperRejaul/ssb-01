@@ -1,0 +1,51 @@
+/* Teble Layout */
+@media only screen and (min-width:200px) and (max-width:991px){
+    .menu-bar ul li a {padding: 10px 10px;}
+    .inner-hero-aria .hiro-right h1 {font-size: 50px;}
+    .header-top {height: 100px;}
+    .mean-container .mean-nav ul li a.mean-expand { height: 26px;}
+}
+/* Mobile Layout*/
+@media only screen and (min-width:200px) and (max-width:768px){
+    .header-top {height: 110px; }
+    .med-iner-left h1 {font-size: 28px;}
+    .med-iner-left p { font-size: 12px;}
+    .med-header .med-iner-right ul li {padding: 0px 5px;}
+    .inner-hero-aria .hiro-right h1 {font-size: 25px;}
+    .inner-hero-aria .hiro-right p {font-size: 12px;}
+    .inner-infermation.all-aline {display: block;}
+    #infermation .inner-infermation .about {width: 100%;}
+    #infermation .inner-infermation .about {margin-right: 0;width: 100%; }
+    #infermation .inner-infermation .services {width: 100%;}
+    #infermation .inner-infermation .clients {width: 100%;}
+    #footer .inner-footer .footer-items {display: block;}
+    #footer .inner-footer .footer-items .footer-item {width: 100%;}
+    #copyright .inner-copy-right {display: block;}
+    #copyright .inner-copy-right p {width: 100%;text-align: center;padding-bottom: 20px;}
+    #copyright .inner-copy-right ul {justify-content: center;}
+    #copyright {background-color: #f2f2f2;padding: 20px 0;}
+    #infermation .about h1, #infermation .services h2, #infermation .clients h2 {text-align: center;}
+    #infermation .service-hiro { justify-content: center;}
+    .header-top .iner-header-left {text-align: center; float: none;}
+    .header-top .iner-header-right {float: none;}
+    .iner-header-right form {margin: 0 auto;}
+    .footer-item-inner {padding-bottom: 20px;}
+    .footer-iten-inner { padding-bottom: 20px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    max-width: 100%;
+}
+.all-aline{
+    width: 95%;
+    margin: 0 auto;
+}
+.flex-div{
+    display: flex;
+}
+.a-tag {
+    text-align: right;
+    padding-top: 10px;
+}
+.a-tag a{
+    color: #9b271a;
+}
+.pb-2{
+    padding-bottom: 15px;
+}
+.pb-5{
+    padding-bottom: 30px;
+}
+/* *********************************************************
+                        Header
+********************************************************** */
+.header-top{
+    font-family: sans-serif;
+    background-color: #ba2e1f;
+    height: 50px;
+    clear: both;
+}
+.header-top .iner-header-left{
+    float: left;
+    overflow: hidden;
+}
+.header-top .iner-header-right{
+    float: right;
+}
+.header-top .iner-header ul{
+    list-style: none;
+}
+.header-top .iner-header ul li{
+    display: inline-block;
+}
+.header-top .iner-header ul li a {
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    border-right: 1px solid #fff;
+    padding: 0 10px;
+}
+.header-top .iner-header ul li a.li-last{
+    border-right: none;
+}
+.iner-header-right form {
+	background: #ffffff;
+	border-radius: 20px;
+	height: 34px;
+	margin-top: 7px;
+	width: 300px;
+	border: 1px solid #ddd;
+	padding-left: 16px;
+	padding-right: 2px;
+}
+.iner-header-right form input {
+    border: none;
+    position: relative;
+    top: 2px;
+    font-size: 15px;
+    width: 88%;
+}
+.iner-header-right form button {
+	border: 0;
+	outline: 0;
+	height: 26px;
+	width: 26px;
+	background: #ba2e1f;
+	border-radius: 50%;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.iner-header-right form button span i{
+    color: white;
+}
+.med-header .med-iner{
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.med-header .med-iner-right ul{
+    list-style: none;
+}
+.med-header .med-iner-right ul li{
+    padding: 0 10px;
+} 
+.med-header .med-iner-right ul li a span i {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    transition: .3s;
+}
+.med-header .med-iner-right ul li:hover a span i{
+    background-color:#ee802f;
+}
+
+/***********************************************
+            DropDown Menu Start
+************************************************/
+#main-menu{
+    width: 100%;
+    clear: both;
+}
+#main-menu .inner-menu{
+    background: url(./image/systematic.jpg);
+    background-repeat: repeat-x;
+    padding: 15px 0;
+    border-radius: 5px;
+    min-height: 30px;
+}
+#main-menu ul{
+    list-style: none;
+    text-align: center;
+    z-index: 999;
+}
+#main-menu  ul li{
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+    transition: .5s;
+}
+#main-menu  ul li a{
+    color: white;
+    display: block;
+    padding: 5px;
+    transition: .2s;
+}
+#main-menu ul li:hover a{
+    color: #ba2e1f;
+}
+#main-menu ul li:hover ul li a{
+    color: #fff;
+}
+/* DropDown Style */
+#main-menu ul ul{
+    position: absolute;
+    background-color: #ba2e1f;
+    width: 180px;
+    left: 0;
+    top: 30px;
+    transition: 0s;
+    display: none;
+}
+#main-menu ul li:hover ul{
+    display: block;
+}
+#main-menu ul li:hover ul ul{
+    display: none;
+}
+#main-menu ul ul li{
+    margin: 0;
+    display: block;
+}
+#main-menu ul ul li:hover > a{
+    background-color: #942317;
+    color: #fff;
+}
+#main-menu ul ul ul{
+    left: 180px;
+    top: 0;
+}
+#main-menu ul ul li:hover ul{
+    display: block;
+}
+/***********************************************
+            DropDown Menu ends
+************************************************/
+
+/* *********************************************************
+                        Slider 
+********************************************************** */
+#slider-aria{
+    z-index: 1;
+}
+.inner-slider-aria {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.inner-slider-aria .item{
+    height:auto;
+    position: relative;
+}
+.inner-slider-aria .item img{
+    width: 100%;
+    height:auto;
+    box-sizing: border-box;
+}
+.inner-slider-aria .item .slider-ception{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* *********************************************************
+                        Hero Aria
+********************************************************** */
+.hero-aria{
+    width: 100%;
+    height: auto;
+}
+.inner-hero-aria{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+.inner-hero-aria .hiro-left {
+    margin-right: 2%;
+    width: 40%;
+}
+.inner-hero-aria .hiro-right {
+    margin: auto;
+    width: 59%;
+}
+.inner-hero-aria .hiro-right h1{
+    font-size: 100px;
+}
+.inner-hero-aria .hiro-right a{
+    color: #ba2e1f;
+    text-align: right;
+    display: block;
+}
+.inner-hero-aria .hiro-right {
+    margin: auto;
+    width: 59%;
+}
+/* *********************************************************
+                        infermation
+********************************************************** */
+#infermation{
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    padding-bottom: 50px;
+}
+.inner-infermation{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#infermation .inner-infermation .about{
+    margin-right:2% ;
+    width: 32%;
+}
+#infermation .inner-infermation .services{
+    width: 32%;
+    margin-right:2%;
+}
+#infermation .inner-infermation .clients{
+    width: 32%;
+}
+#infermation .about h1,
+#infermation .services h2,
+#infermation .clients h2{
+    padding: 50px 0;
+}
+#infermation .service-hiro {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 17px;
+}
+#infermation .service-hiro .service-left{
+    margin-right: 5%;
+}
+#infermation .about img{
+    padding-bottom: 30px;
+}
+#infermation .inner-infermation p,
+#infermation .inner-infermation h4{
+    color: #878787;
+}
+#infermation .clients h4 i{
+    font-size: 54px;
+    margin-right: 15px;
+    color: #d4d4d4;
+}
+#infermation .clients h4{
+    display: flex;
+    align-items: center;
+}
+/* *********************************************************
+                        Footer
+********************************************************** */
+#footer{
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+}
+#footer .inner-footer{
+    height: auto;
+}
+#footer .inner-footer .footer-items{
+    display: flex;
+    justify-content: space-between;
+}
+#footer .inner-footer .footer-items .footer-item{
+    width: 33%;
+    margin-right: 2%;
+    border-top: 1px solid #666666;
+}
+#footer .inner-footer .footer-items .last{
+    margin-right: 0;
+}
+#footer .footer-items .footer-item h1,
+#footer .footer-items .footer-item p,
+#footer .footer-items .footer-item h2,
+#footer .footer-items .footer-item h3,
+#footer .footer-items .footer-item li{
+    color:#666666 ;
+}
+#footer .footer-items .footer-item a{
+    color: #ba2e1f ;
+}
+#footer .footer-items .footer-item h2,
+#footer .footer-items .footer-item h1{
+    padding: 20px 0 30px 0;
+}
+#footer ul{
+    list-style: none;
+}
+#footer ul li{
+    border-bottom: 1px solid #d4d4d4;
+    padding: 7px 0;
+}
+#footer ul li::before{
+    content: "»";
+    margin-right: 10px;
+}
+#footer form input[type="text"],
+#footer form input[type="email"] {
+	background-color: #f2f2f2;
+	padding: 8px 10px;
+	outline: 0;
+	border: 0;
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 16px;
+    border-radius: 7px;
+    transition: .3s;
+}
+#footer form textarea{
+    width: 100%;
+    background-color: #f2f2f2;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 5px 10px;
+    resize: none;
+    transition: .3s;
+}
+#footer form input[type="submit"]{
+    outline: 0;
+    border: 0;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-top: 15px;
+    color: #ba2e1f;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+#footer form input[type="text"]:hover,
+#footer form input[type="email"]:hover,
+#footer form textarea:hover,
+#footer form input[type="submit"]:hover{
+    border: 1px solid #99cc00;
+}
+/* *********************************************************
+                       copyright
+********************************************************** */
+#copyright{
+    background-color: #f2f2f2;
+    padding: 40px 0;
+}
+#copyright .inner-copy-right{
+    display: flex;
+    justify-content: space-between;
+}
+#copyright .inner-copy-right ul{
+    display: flex;
+    list-style-type: none;
+}
+#copyright .inner-copy-right ul li a{
+    padding: 6px;
+    transition: .3s;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    margin-left: 10px;
+}
+#copyright .inner-copy-right ul li a:hover{
+    color: black;
+    background-color: #ba2e1f;
+}
