@@ -78,6 +78,9 @@ img{
     font-size: 15px;
     width: 88%;
 }
+.iner-header-right form input:focus{
+    outline: 0;
+}
 .iner-header-right form button {
 	border: 0;
 	outline: 0;
@@ -237,7 +240,7 @@ img{
     margin: auto;
     width: 59%;
 }
-.inner-hero-aria .hiro-right h1{
+.inner-hero-aria .hiro-right h2{
     font-size: 100px;
 }
 .inner-hero-aria .hiro-right a{
@@ -274,7 +277,14 @@ img{
 #infermation .inner-infermation .clients{
     width: 32%;
 }
-#infermation .about h1,
+.client-body {
+	padding-bottom: 27px;
+}
+.client-body a {
+	margin-top: 30px;
+	display: block;
+}
+#infermation .about h2,
 #infermation .services h2,
 #infermation .clients h2{
     padding: 50px 0;
@@ -282,13 +292,14 @@ img{
 #infermation .service-hiro {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 17px;
+    padding-bottom: 38px;
 }
 #infermation .service-hiro .service-left{
     margin-right: 5%;
 }
 #infermation .about img{
     padding-bottom: 30px;
+    width: 100%;
 }
 #infermation .inner-infermation p,
 #infermation .inner-infermation h4{
@@ -326,7 +337,7 @@ img{
 #footer .inner-footer .footer-items .last{
     margin-right: 0;
 }
-#footer .footer-items .footer-item h1,
+#footer .footer-items .footer-item h2,
 #footer .footer-items .footer-item p,
 #footer .footer-items .footer-item h2,
 #footer .footer-items .footer-item h3,
@@ -337,7 +348,7 @@ img{
     color: #ba2e1f ;
 }
 #footer .footer-items .footer-item h2,
-#footer .footer-items .footer-item h1{
+#footer .footer-items .footer-item h2{
     padding: 20px 0 30px 0;
 }
 #footer ul{
@@ -407,13 +418,16 @@ img{
     display: flex;
     list-style-type: none;
 }
-#copyright .inner-copy-right ul li a{
-    padding: 6px;
-    transition: .3s;
-    background-color: black;
-    border-radius: 50%;
-    color: white;
-    margin-left: 10px;
+#copyright .inner-copy-right ul li a {
+	padding: 6px;
+	transition: .3s;
+	background-color: black;
+	border-radius: 50%;
+	color: white;
+	margin-left: 10px;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
 }
 #copyright .inner-copy-right ul li a:hover{
     color: black;
